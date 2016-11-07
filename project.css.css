@@ -1,0 +1,92 @@
+body{
+	background-color:#806592 ;
+}
+.all-content{
+    background-color:#544062;
+	width:400px;
+	height:400px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:90px;
+	border:solid #544062 1px;
+	
+}
+.menu{
+	width:300px;
+	margin-left:50px;
+    margin-top:50px;
+    border:solid #544062 1px;
+	margin-bottom:50px;
+}
+.login{
+	width:100px;
+	text-align:center;
+	border:solid #544062 1px;
+	display:inline-block;
+}
+.signup{
+
+	width:100px;
+	text-align:center;
+    border:solid #544062 1px;
+	display:inline-block;
+	margin-left:91px;
+}
+.fom{
+	border:solid #544062 1px;
+	width:300px;
+	margin-left:50px;
+	margin-right:50px;
+	
+
+	}
+.email ,.password ,.check {
+	border:solid #544062 1px;
+}
+.email input,.password input{
+	border:0;
+	background-color:#544062;
+	color:white;
+	border-bottom:solid #9d8a93 1px;
+}
+.email input:focus,.password input:focus{
+	outline:none;
+}
+.logbutton{
+	border:solid #FF4660 1px;
+}
+.email input,.password input,.logbutton input{
+	width:100%;
+}
+.logbutton input{
+	border:0;
+	height:40px;
+	color:#F2EDEE;
+}
+.check input:checked{
+	color:#95ee75;
+}
+
+.email label,.password label,.check label{
+    font-size:10px;
+	color:#9d8a93;
+}
+.check label{
+	padding-bottom:2px;
+}
+.password,.logbutton,.check{
+	margin-top:10px;
+}
+.logbutton input{
+	background-color:#FF4660;
+
+}
+.footer {
+	border:solid #544062 1px;
+	margin-top:15px;
+	text-align:center;
+    font-size:12px;
+}
+.footer a{
+	color:#9d8a93;
+}

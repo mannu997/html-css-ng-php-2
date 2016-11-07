@@ -1,0 +1,37 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="design.css"/>
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="project.css.css"/>
+
+</head>                                                                            
+
+<body ng-app="impossible-app" ng-controller="tabController">
+
+<div class="all-content">
+<div class="nav nav-tabs menu">
+<div class="login" ng-class="{active:ravalue()===1}"><a href ng-click="selecttab(1)">Log In</a></div>
+<div class="signup" ng-class="{active:ravalue()===2}"><a href ng-click="selecttab(2)">Sign Up</a></div>
+
+</div>
+<div ng-show="rvalue()===1">
+<div class="fom">
+<form method="post" action="submit.php">
+<div class="email"><label>EMAIL</label><input type="email" name="email"/></div>
+<div class="password"><label>PASSWORD</label><input type="password" name="password"/></div>
+<div class= "check"><input type="checkbox" name="checkbox"/><label for="checkbox">Keep me logged</label></div>
+<div class="logbutton"><input type="submit" value="LOG IN"/></div>
+</form>
+</div>
+<div class="footer">
+<a href="#">Forgot password?</a>
+</div>
+</div>
+<div ng-show="rvalue()===2">
+</div>
+</div>
+
+</body>
+<script type="text/javascript" src="angular.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+</html>
